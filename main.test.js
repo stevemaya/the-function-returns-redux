@@ -2,9 +2,37 @@
  * YOUR CODE HERE *
  ******************/
 
+let greeting = 'Hello'; 
+let sum = 0;
+let prod = 0;
 
+function greet(string){
+  greeting = greeting + ' ' + string;
+}
 
+function sumOfTwo(num1, num2){
+sum = num1 + num2;
+}
 
+function multiply(num1, num2, num3){
+prod = num1 * num2 * num3
+}
+
+function sayHi(Charlotte){
+return('Hello Colin!');
+}
+
+function returnWhatISay(){
+  return('Colin');
+}
+
+function divide(num1, num2){
+  return num1 / num2
+}
+
+function remainder(num1, num2){
+return num1 % num2
+}
 /*********************************************************************************************************************
 
  * CODE BELOW HERE IS FOR INTERNAL USE ONLY! IT ENSURES THAT THE TESTING *
