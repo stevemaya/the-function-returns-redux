@@ -11,11 +11,11 @@ function greet(string){
 }
 
 function sumOfTwo(num1, num2){
-sum = num1 + num2;
+  sum = num1 + num2;
 }
 
 function multiply(num1, num2, num3){
-prod = num1 * num2 * num3;
+  prod = num1 * num2 * num3;
 }
 
 function sayHi(greeting){
@@ -31,7 +31,7 @@ function divide(num1, num2){
 }
 
 function remainder(num1, num2){
-return num1 % num2;
+  return num1 % num2;
 }
 /*********************************************************************************************************************
 
