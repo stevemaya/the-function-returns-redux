@@ -7,7 +7,7 @@ let sum = 0;
 let prod = 0;
 
 function greet(string){
-  greeting = greeting + ' ' + string;
+  greeting = 'Hello ' + string;
 }
 
 function sumOfTwo(num1, num2){
@@ -15,23 +15,23 @@ sum = num1 + num2;
 }
 
 function multiply(num1, num2, num3){
-prod = num1 * num2 * num3
+prod = num1 * num2 * num3;
 }
 
-function sayHi(Charlotte){
-return('Hello Colin!');
+function sayHi(greeting){
+return "Hello " + greeting + '!';
 }
 
-function returnWhatISay(){
-  return('Colin');
+function returnWhatISay(name){
+  return name;
 }
 
 function divide(num1, num2){
-  return num1 / num2
+  return num1 / num2;
 }
 
 function remainder(num1, num2){
-return num1 % num2
+return num1 % num2;
 }
 /*********************************************************************************************************************
 
