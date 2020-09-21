@@ -19,7 +19,7 @@ prod = num1 * num2 * num3;
 }
 
 function sayHi(greeting){
-return "Hello " + greeting + '!';
+  return "Hello " + greeting + '!';
 }
 
 function returnWhatISay(name){
